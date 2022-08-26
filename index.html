@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="비건화장품,틴트,립밤,네일,아이섀도우,블러셔">
+<meta name="description" content="환경을 생각하는 비건립립밤과 자연스러운 색조 연출을 해주는 코스메틱제품">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laka</title>
+
+<!-- style -->
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/Laka.css">
+
+<!-- font -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+
+<!-- script -->
+<script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+<script src="./js/Laka.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="inner">
+            <h1 class="logo"><a href="#"><img src="./images/logo.jpg" alt="Laka"></a></h1>
+            <p class="blind">주요메뉴</p>
+            <nav class="gnb">
+                <ul class="top_menu">
+                    <li><a href="#">로그인</a><span></span></li>
+                    <li><a href="#">마이페이지</a><span></span></li>
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#"><img src="./images/shoppingcart.jpg" alt="장바구니"></a></li>
+                </ul>
+                <ul class="main_menu">
+                    <li>
+                        <form action="#">
+                            <fieldset>
+                                <label for="product" class="blind">상품</label>
+                                <select name="product" id="product">
+                                    <option value="상품">상품</option>
+                                    <option value="상품">모든상품</option>
+                                    <option value="립">립</option>
+                                    <option value="아이">아이</option>
+                                    <option value="브로우">브로우</option>
+                                    <option value="치크">치크</option>
+                                    <option value="네일">네일</option>
+                                </select>
+                            </fieldset>
+                        </form>
+                    </li>
+                    <li><a href="#">리뷰</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">브랜드정보</a></li>
+                </ul>
+            </nav>
+            <div class="util">
+                <form action="#">
+                    <fieldset>
+                        <legend class="blind">통합검색어</legend>
+                        <label for="search" class="blind">검색어 입력</label>
+                        <input type="text" id="search">
+                        <input type="image" src="./images/search.jpg" alt="검색" id="search_icon">
+                    </fieldset>
+                </form>
+            </div>
+            
+        </div>
+    </header>
+    <div id="visual">
+        <div class="slide_gallery">
+            <ul class="slides">
+                <li><a href="#"><img src="./images/visual_01-1.jpg" alt="라카 프루티 글램 틴트"></a></li>
+                <li><a href="#"><img src="./images/visual_02.jpg" alt="라카 와일드 브로우 셰이퍼"></a></li>
+                <li><a href="#"><img src="./images/visual_03-1.jpg" alt="라카 글래시 네일 컬러"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="wrap">
+        <div id="contents_lip">
+            <div class="inner">
+                <p class="blind">비건립밤</p>
+                <div class="lip_contents" >
+                    <img src="./images/lipbalm_img.jpg" alt="라카 소울 비건 립밤">
+                    <div class="slogan">
+                        <img src="./images/lipbalm_slogan.jpg" alt="Set free the Soul">
+                        <div class="explain">
+                            <h2>Soul Vegan Lip Balm</h2>
+                            <p>
+                                일상의 순간으로 부터 시작되는 해방의 시간<br>
+                                아름답고 독자적인 형상 속에 청정한 안심<br>
+                                처방을 담은 고보습 비건 립밤
+                            </p>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="#" class="more_btn">PRODUCT  MORE <span>&gt;</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contents_nail">
+            <div class="inner" data-scroll>
+                <p class="blind">네일제품</p>
+                <div class="nail_title">
+                    <h2>Glassy  Nail  Product</h2>
+                    <p>다양한 네일제품을 만나 보실 수 있습니다.</p>
+                </div>
+                <div class="show_slide">
+                    <ul class="show">
+                        <li>
+                            <a href="#">
+                                <h2><span class="a1">#01</span>Maple Red</h2>
+                                <img src="./images/nail_1_01.png" alt="라카 글래시 네일 컬러 시티 컬렉션">
+                                <p>
+                                    라카 글래시 네일 컬러<br>
+                                    시티 컬렉션
+                                </p>
+                                <div>MORE <span>&gt;</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h2><span class="a2">#02</span>Cosy Beige</h2>
+                                <img src="./images/nail_1_02.png" alt="라카 글래시 네일 컬러 시티 컬렉션">
+                                <p>
+                                    라카 글래시 네일 컬러<br>
+                                    시티 컬렉션
+                                </p>
+                                <div>MORE <span>&gt;</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h2><span class="a3">#03</span>Rhythmic Charcoal</h2>
+                                <img src="./images/nail_1_03.png" alt="라카 글래시 네일 컬러 시티 컬렉션">
+                                <p>
+                                    라카 글래시 네일 컬러<br>
+                                    시티 컬렉션
+                                </p>
+                                <div>MORE <span>&gt;</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h2><span class="a4">#04</span>Ocean Mint</h2>
+                                <img src="./images/nail_2_01.png" alt="라카 글래시 네일 컬러 평화 컬렉션">
+                                <p>
+                                    라카 글래시 네일 컬러<br>
+                                    평화 컬렉션
+                                </p>
+                                <div>MORE <span>&gt;</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h2><span class="a5">#05</span>Mist Gray</h2>
+                                <img src="./images/nail_2_02.png" alt="라카 글래시 네일 컬러 평화 컬렉션">
+                                <p>
+                                    라카 글래시 네일 컬러<br>
+                                    평화 컬렉션
+                                </p>
+                                <div>MORE <span>&gt;</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h2><span class="a6">#06</span>Midnight Navy</h2>
+                                <img src="./images/nail_2_03.png" alt="라카 글래시 네일 컬러 평화 컬렉션">
+                                <p>
+                                    라카 글래시 네일 컬러<br>
+                                    평화 컬렉션
+                                </p>
+                                <div>MORE <span>&gt;</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="contents_all">
+            <div class="inner" data-scroll >
+                <p class="blind">메뉴가기</p>
+                <div class="all_title">
+                    <h2>Laka  Of  All  Product</h2>
+                    <p>Laka만의  제품들을  만나  보실  수  있습니다.</p>
+                </div>
+        
+                <div class="product">
+                    <ul class="pd_01">
+                        <li>
+                            <div class="pd_more">
+                                <p>모든 제품</p>
+                                <a href="#" class="bt">MORE</a>
+                            </div>
+                            <a href="#">
+                                <img src="./images/allproduct_01.jpg" alt="모든 제품 보러가기">
+                            </a>
+                        </li>
+                        <li>
+                            <div class="pd_more">
+                                <p>립 제품</p>
+                                <a href="#" class="bt">MORE</a>
+                            </div>
+                            <a href="#">
+                                <img src="./images/allproduct_02.jpg" alt="립 제품 보러가기">
+                            </a>
+                        </li>
+                        <li>
+                            <div class="pd_more">
+                                <p>아이 제품</p>
+                                <a href="#" class="bt">MORE</a>
+                            </div>
+                            <a href="#">
+                                <img src="./images/allproduct_03.jpg" alt="아이 제품 보러가기">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="pd_02">
+                        <li>
+                            <div class="pd_more">
+                                <p>브로우 제품</p>
+                                <a href="#" class="bt">MORE</a>
+                            </div>
+                            <a href="#">
+                                <img src="./images/allproduct_04.jpg" alt="브로우 제품 보러가기">
+                            </a>
+                        </li>
+                        <li>
+                            <div class="pd_more">
+                                <p>치크 제품</p>
+                                <a href="#" class="bt">MORE</a>
+                            </div>
+                            <a href="#">
+                                <img src="./images/allproduct_05.jpg" alt="치크 제품 보러가기">
+                            </a>
+                        </li>
+                        <li>
+                            <div class="pd_more">
+                                <p>네일 제품</p>
+                                <a href="#" class="bt">MORE</a>
+                            </div>
+                            <a href="#">
+                                <img src="./images/allproduct_06.jpg" alt="네일 제품 보러가기">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="inner" >
+                <p class="blind">회사 기타정보</p>
+                <h2><a href="#"><img src="./images/footer_logo.jpg" alt="Laka"></a></h2>
+                <ul class="info">
+                    <li><a href="#">이용약관<span></span></a></li>
+                    <li><a href="#">개인정보처리방침<span></span></a></li>
+                    <li><a href="#">청소년보호정책<span></span></a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+                <p class="copyright" >Copyright (c) 2022,Laka. all rights reserved</p>
+                <ul class="sns" >
+                    <li><a href="#"><img src="./images/footer_icon_01.jpg" alt="인스타"></a></li>
+                    <li><a href="#"><img src="./images/footer_icon_02.jpg" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="./images/footer_icon_03.jpg" alt="유투브"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
